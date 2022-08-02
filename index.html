@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript in front end</title>
+</head>
+<body>
+    <h1>javascript</h1>
+    
+    <h3 onmouseover="mOver(this)" onmouseout="mOut(this)" class="c1">DOM</h3>
+    <h2 class="c1">DOM methods</h2>
+    <ol>
+        <li>Using Tag Name:getElementByTagName('tag') </li>
+        <li>Using Id:getElementById('id') </li>
+        <li>Using class Name:getElementByClassName('tag') </li>
+        <li>Using Tag Name/id/class:querySelector('tag') </li>
+        <li>Using Tag Name/id/class:querySelectorAll('tag') </li>
+    </ol>
+</body>
+
+
+<script>
+    function mOver(obj) {
+      obj.innerHTML = "DOM"
+    }
+    
+    function mOut(obj) {
+      obj.innerHTML = "Document Object methods"
+    }
+    </script>
+
+</html>
